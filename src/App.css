@@ -10,4 +10,5 @@ body{
   color: aqua;
   font-family: sans-serif;
   font-size: 2rem;
+  text-transform: uppercase;
 }
