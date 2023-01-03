@@ -1,12 +1,9 @@
-import React from 'react'
+import { useParams } from "react-router-dom";
 
 const Menu = () => {
-  return (
-    <div>
-      This is the HMenu page
-      
-    </div>
-  )
-}
+  let { recipe } = useParams();
 
-export default Menu
+  return <div> This is the recipe of {recipe} </div>;
+};
+
+export default Menu;
